@@ -1,0 +1,77 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #000000, #ff0000, #007bff); /* Kombinasi warna latar belakang */
+    margin: 0; /* Pastikan margin diatur ke 0 */
+    padding: 0; /* Pastikan padding diatur ke 0 */
+    height: 100vh; /* Mengatur tinggi body agar memenuhi viewport */
+    display: flex; /* Menggunakan flexbox untuk penataan */
+    justify-content: center; /* Mengatur konten agar terpusat secara horizontal */
+    align-items: center; /* Mengatur konten agar terpusat secara vertikal */
+}
+
+/* Container Styles */
+.container {
+    max-width: 400px; /* Lebar maksimum kontainer */
+    width: 100%; /* Lebar kontainer 100% dari lebar maksimum */
+    background: #09227e; /* Warna solid tanpa transparansi */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    text-align: center; /* Rata tengah untuk semua heading */
+    color: #fff; /* Warna teks putih untuk kontras pada latar belakang gelap */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Label and Input Styles */
+label {
+    display: block;
+    margin: 20px 0 10px;
+    color: white; /* Mengubah warna teks label menjadi putih */
+}
+
+/* Input Styles */
+input {
+    width: calc(100% - 22px); /* Lebar input dikurangi padding dan border */
+    padding: 10px; /* Padding dalam input */
+    margin-bottom: 10px; /* Margin bawah untuk jarak antar elemen */
+    border-radius: 5px; /* Sudut membulat pada input */
+    border: 1px solid rgb(32, 183, 216); /* Border berwarna biru untuk input */
+}
+
+/* Button Styles */
+button {
+    width: calc(100% - 22px); /* Lebar tombol dikurangi padding dan border */
+    padding: 10px; /* Padding tombol */
+    background-color: #28a745; /* Warna hijau untuk tombol */
+    color: white; /* Warna teks putih pada tombol */
+    border-radius: 5px; /* Sudut membulat pada tombol */
+}
+
+button:hover {
+    background-color: #218838; /* Warna hijau gelap saat hover */
+}
+
+/* Result and Recommendations Styles */
+#result,
+#shoeRecommendations {
+    margin-top: 20px;
+}
